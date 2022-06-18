@@ -31,8 +31,10 @@
         <com.willy.ratingbar.BaseRatingBar
             android:id="@+id/storeRatingBar"
             app:srb_starWidth="17dp"
+            app:srb_stepSize="0.5"
             app:srb_starHeight="17dp"
             app:srb_starPadding="2dp"
+            app:srb_isIndicator="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
